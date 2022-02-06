@@ -15,6 +15,7 @@
 		663EC13727AF007E0006C5AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663EC13627AF007E0006C5AC /* Home.swift */; };
 		66F4E9E927AF1F0E00ACFA24 /* MenuCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F4E9E827AF1F0D00ACFA24 /* MenuCardView.swift */; };
 		66F4E9EB27AF1F2B00ACFA24 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F4E9EA27AF1F2B00ACFA24 /* Food.swift */; };
+		66F5C3DC27AFD1970038B038 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5C3DB27AFD1970038B038 /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		663EC13627AF007E0006C5AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		66F4E9E827AF1F0D00ACFA24 /* MenuCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardView.swift; sourceTree = "<group>"; };
 		66F4E9EA27AF1F2B00ACFA24 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		66F5C3DB27AFD1970038B038 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				663EC13627AF007E0006C5AC /* Home.swift */,
 				66F4E9E827AF1F0D00ACFA24 /* MenuCardView.swift */,
+				66F5C3DB27AFD1970038B038 /* OffsetModifier.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				663EC13527AEF6EA0006C5AC /* Tab.swift in Sources */,
 				663EC12727AEF6710006C5AC /* ContentView.swift in Sources */,
 				663EC13727AF007E0006C5AC /* Home.swift in Sources */,
+				66F5C3DC27AFD1970038B038 /* OffsetModifier.swift in Sources */,
 				663EC12527AEF6710006C5AC /* Scrollable_MenuAppApp.swift in Sources */,
 				66F4E9E927AF1F0E00ACFA24 /* MenuCardView.swift in Sources */,
 				66F4E9EB27AF1F2B00ACFA24 /* Food.swift in Sources */,

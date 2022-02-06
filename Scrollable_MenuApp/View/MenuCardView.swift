@@ -10,9 +10,10 @@ import SwiftUI
 struct MenuCardView: View {
     
     var tab: Tab
+    @Binding var currentTab: String
     
     var body: some View {
-        
+//MARK: - основной вид товаров
         VStack(alignment: .leading, spacing: 20) {
             
             Text(tab.tab)
@@ -45,6 +46,12 @@ struct MenuCardView: View {
                 }
             }
         }
+        
+//MARK: - Функция привязки ID категории и товаров
+        .id(tab.id)
+        
+//MARK: - перемещение по списку
+        .modifier(OffsetModifier(tab: tab, currentTab: $currentTab))
     }
 }
 
